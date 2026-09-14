@@ -64,8 +64,10 @@ Explanations are part of the deliverable, not just the questions.
 - `cheatsheets/` holds the condensed formula/table version for fast revision.
 - `sessions/` files summarize what was taught and **link** to the topic
   note; they don't duplicate the full lesson.
-- Teach blocks are written to disk **as they complete**, so nothing lives
-  only in the chat transcript.
+- Teach/repair blocks are written to disk **and committed as they complete**
+  — the chat transcript is never the only home of a segment. The day's
+  `sessions/` file is updated progressively (`Status: in progress`) and
+  finalized with the Q&A and scores.
 - Agents: see `AGENTS.md` for the full convention and daily loop.
 
 ## Scoring convention
