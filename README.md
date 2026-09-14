@@ -54,6 +54,20 @@ git add -A && git commit -m "day-NN: <topic>" && git push
 
 `sessions/YYYY-MM-DD_day-NN_<slug>.md`
 
+## Teaching-notes convention
+
+Explanations are part of the deliverable, not just the questions.
+
+- Each taught concept is persisted to `topics/NN_<slug>.md` in the
+  plain-language shape (see `topics/_TEMPLATE.md`):
+  **In plain words → Because → The term → Interview line** (+ optional Trap).
+- `cheatsheets/` holds the condensed formula/table version for fast revision.
+- `sessions/` files summarize what was taught and **link** to the topic
+  note; they don't duplicate the full lesson.
+- Teach blocks are written to disk **as they complete**, so nothing lives
+  only in the chat transcript.
+- Agents: see `AGENTS.md` for the full convention and daily loop.
+
 ## Scoring convention
 
 - **9–10** interview-ready: crisp, correct, includes a nuance or trade-off.

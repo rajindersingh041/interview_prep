@@ -6,6 +6,13 @@ Status: complete
 - Re-teach of the 9 Day-1 gaps (A2, A4, A6, A7, A9, A10, B3, B4, B10)
 - 10 new descriptive-stats questions (Block N) + 10 cumulative (Block C)
 
+## Teaching notes (canonical)
+- Plain-language re-teach of the Day-1 gaps:
+  **`topics/01_descriptive_stats_distributions.md` → section 9 "Plain-English
+  version"** (added Day 1b). Condensed: `cheatsheets/01_descriptive_stats.md`.
+- This session file intentionally does **not** duplicate the lesson; the
+  explanations live in the topic note (see `AGENTS.md` for the convention).
+
 ## Learning-method note
 - **Added intervention:** teach in plain language first — plain words →
   technical term → interview line. User pushed back on the dense,
