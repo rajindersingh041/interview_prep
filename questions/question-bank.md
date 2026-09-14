@@ -33,15 +33,38 @@ weak concepts. The daily loop draws from here.
 | B8 | Overfitting | 2 | baseline | 1 | 5 | 1 | **weak** |
 | B9 | Sup vs unsup | 1 | baseline | 1 | 5 | 1 | **weak** |
 | B10 | CLT | 3 | baseline | 1 | 2 | 1 | **weak** |
+| N1 | Parameter vs statistic | 1 | topic | 1b | 7 | 1 | active |
+| N2 | mean=median=mode | 2 | topic | 1b | 4 | 1 | **weak** |
+| N3 | Std without "average" | 2 | topic | 1b | 2 | 1 | **weak** |
+| N4 | ÷n vs ÷(n−1) | 3 | topic | 1b | 7 | 1 | active |
+| N5 | Coefficient of variation | 3 | topic | 1b | 0 | 1 | **weak** |
+| N6 | Average hides shape | 3 | topic | 1b | 7 | 1 | active |
+| N7 | IQR vs std | 2 | topic | 1b | 4 | 1 | **weak** |
+| N8 | Right-skew transforms | 3 | topic | 1b | 2 | 1 | **weak** |
+| N9 | Bernoulli/Binomial/Poisson | 2 | topic | 1b | 1 | 1 | **weak** |
+| N10 | Heavy-tailed | 4 | topic | 1b | 6 | 1 | **weak** |
+| C1 | Bias–variance | 2 | cumulative | 1b | 3 | 1 | **weak** |
+| C2 | Cross-validation | 2 | cumulative | 1b | 7 | 1 | active |
+| C3 | P-value | 3 | cumulative | 1b | 8 | 1 | active |
+| C4 | Simpson's paradox | 3 | cumulative | 1b | 7 | 1 | active |
+| C5 | CLT | 3 | cumulative | 1b | 3 | 1 | **weak** |
+| C6 | Poisson property | 3 | cumulative | 1b | 8 | 1 | active |
+| C7 | Imbalanced metrics | 3 | cumulative | 1b | 8 | 1 | active |
+| C8 | Sup vs unsup | 2 | cumulative | 1b | 0 | 1 | **weak** |
+| C9 | Tree vs KNN/GD scaling | 2 | cumulative | 1b | 6 | 1 | **weak** |
+| C10 | L1 vs L2 (correlated) | 4 | cumulative | 1b | 3 | 1 | **weak** |
 
 ## Resurfacing queue (weak, in priority order)
 
-1. A9 kurtosis (0), A10 Simpson's paradox (0), B2 logreg-vs-tree (1), B10 CLT (2)
-2. A2 Bessel (3), A7 Poisson (3), A6 z-score (4), A8 skew handling (4),
-   B1 bias–variance (4), B3 p-value (4), B4 L1/L2 (4)
-3. A4 skew ordering (5), B5 CV (5), B8 overfitting (5), B9 sup/unsup (5)
-4. B6 imbalance metrics (6) — near clear
+0-score / worst first:
+1. N5 coefficient of variation (0), C8 sup vs unsup / KNN (0)
+2. N9 discrete distributions (1), N3 std definition (2), N8 skew transforms (2)
+3. C1 bias–variance (3), C5 CLT (3), C10 L1/L2 correlated (3), A2 Bessel (3), A7 Poisson (3)
+4. N2 mean=median=mode (4), N7 IQR vs std (4), A6 z-score (4), A8 skew handling (4), B1/B3/B4 (4)
+5. A4 skew ordering (5), B5 CV (5), B8 overfitting (5), B9 sup/unsup (5)
+6. N10 heavy-tailed (6), C9 scaling (6) — near clear
+7. Improved but not clear (≥7, need a second ≥8): C2 CV (7), C3 p-value (8), C4 Simpson's (7), C6 Poisson (8), C7 imbalance (8), N1/N4/N6 (7)
 
 ## Cleared
 
-_None yet._
+_None yet (clearance = ≥8 on two separate asks)._
